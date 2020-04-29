@@ -1,0 +1,234 @@
+/*header top bar:*/
+
+header {
+  background: rgb(133,20,75);
+  height: 50px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 70%;  
+  margin-left: 15%;
+  z-index: 15;
+}
+
+.containertopbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+}
+
+/*body*/
+
+.whole {
+  background: ;
+  margin: 0;
+  padding: 0;
+}
+
+.content {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  width: 70%;
+  margin: auto;
+  position: relative;
+  top: 50px;
+}
+
+nav {
+  position: fixed;
+  bottom: 60px;
+  right: 17%;
+  z-index: 20;
+}
+
+.help {
+  background: rgb(255,220,0);
+  color: rgb(133,20,75);
+  font-family: 'Josefin Sans', sans-serif;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: bold;
+  box-shadow: 5px 5px 10px #4a4a4a;
+  border-radius: 20px;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  line-height: 20px;
+}
+
+.help:hover {
+  background: white;
+}
+
+/*main*/
+
+main {
+  width: 60%;
+  background: rgb(241, 241, 241);
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.maintext {
+  width: 80%;
+  margin: 40px auto;  
+}
+
+.bottom-left {
+  position: absolute;
+  bottom: 10%;
+  left: 10%;
+  font-family: 'Playfair Display', serif;
+}
+
+.hi {
+  margin: 0;
+  font-size: 30px;
+  line-height: 35px;
+}
+
+.name {
+  margin: 0;
+  font-size: 50px;
+  line-height: 55px;
+}
+
+a {
+  display: block;
+  width: auto;
+  margin: 0 0;
+  text-align: center;
+  line-height: 50px;
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.maintext {
+  font-size: 15px;
+  margin: 10;
+}
+
+.article {
+  font-family: 'Josefin Sans', sans-serif;
+  margin: 0 10%;
+}
+
+.sectiontitle {
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 70px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 0;
+  margin-top: 25px;
+}
+
+.italictitle {
+  font-family: 'Merriweather', serif;
+  font-size: 15px;
+  padding: 0;
+  margin-top: 0;
+}
+
+/*aside*/
+
+aside {
+  width: 50%;
+  background: rgb(133,20,75);
+  position: relative;
+  left: 0px;
+}
+
+.anakin {
+  background-image: url("http://stayathome-syllabus.greenfox.academy/week01/assets/first-website-header.png");
+  background-repeat: no-repeat;
+  background-size: auto 300px ;
+  background-position: center;
+}
+
+blockquote {
+  margin: 0;
+}
+
+.first, .second, .third {
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.firstaside, .secondaside, .thirdaside {
+  height: 300px;
+}
+
+.fourthaside {
+  height: 400px;
+}
+
+.mark {
+  width: 70px;
+  position: absolute;
+  left: 20px;
+  top: 20px;
+}
+
+.textquote {
+  color: white;
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  line-height: 50px;
+  height: 300px;
+  margin: 0;
+  padding: 0 40px;
+  position: relative;
+  top: 0px;
+  display: flex;
+  align-items: center;
+}
+
+.fourth {
+  margin-bottom: 60px;
+  display: flex;
+  position: relative;
+  left: 0px;
+}
+
+.qoutefourth {
+  height: 400px;
+  color: white;
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  line-height: 50px;
+  margin: 0;
+  padding: 0 40px;
+  position: relative;
+  top: 0px;
+  display: flex;
+  align-items: center;
+}
+
+/*footer*/
+
+footer {
+  background-color: rgb(133,20,75);
+  height: 50px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 70%;  
+  margin-left: 15%;
+  z-index: 15;
+}
+
+.containerbottom {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 80%;
+  margin: auto;
+}

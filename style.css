@@ -37,8 +37,8 @@ header {
 
 nav {
   position: fixed;
-  bottom: 60px;
-  right: 17%;
+  bottom: 67px;
+  right: 7%;
   z-index: 20;
 }
 
@@ -48,7 +48,7 @@ nav {
   padding: 10px;
   font-size: 20px;
   font-weight: bold;
-  box-shadow: 5px 5px 10px #4a4a4a;
+  box-shadow: 3px 3px 5px #777777;
   border-radius: 20px;
   width: 20px;
   height: 20px;
